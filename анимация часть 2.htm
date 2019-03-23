@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  LOL</title>
+<style type="text/css">
+ @keyframes vce{
+0%{
+border-radius:0 0 0 0;
+}
+25%{
+border-radius:20% 20% 20% 20%;
+transform:rotate(45deg);
+}
+50%{
+border-radius:30% 30% 30% 30%;
+
+}
+75%{
+border-radius:40% 40% 40% 40%;
+transform:rotate(135deg);
+}
+100%{
+border-radius:50% 50% 50% 50%;
+transform:rotate(180deg);
+}}
+   @keyframes turning{
+0%{
+border-radius:0 0 0 0;
+transform:rotate(0deg);
+}
+25%{
+border-radius:50% 0 0 0;
+transform:rotate(45deg);
+}
+50%{
+border-radius:50% 50% 0 0;
+transform:rotate(90deg);
+}
+75%{
+border-radius:50% 50% 50% 0;
+transform:rotate(135deg);
+}
+100%{
+border-radius:50% 50% 50% 50%;
+transform:rotate(180deg);
+}}
+ @keyframes cool{
+0%{
+border-radius:0 0 0 0;
+transform:rotate(0deg);
+}
+25%{
+border-radius:50% 0 47% 0;
+transform:rotate(45deg);
+}
+50%{
+border-radius:50% 50% 0 0;
+transform:rotate(90deg);
+}
+75%{
+border-radius:50% 70% 50% 0;
+transform:rotate(135deg);
+}
+100%{
+border-radius:90% 50% 30% 50%;
+transform:rotate(180deg);
+}}
+@keyframes hi{
+0%{
+border-radius:0 0 0 0;
+transform:rotate(0deg);
+}
+67%{
+border-radius:30% 0 0 0;
+transform:rotate(45deg);
+}
+40%{
+border-radius:30% 40% 0 0;
+transform:rotate(90deg);
+}
+85%{
+border-radius:70% 50% 40% 0;
+transform:rotate(135deg);
+}
+100%{
+border-radius:50% 50% 50% 90%;
+transform:rotate(180deg);
+}}
+div.div{
+height:600px;
+width:600px;
+margin:50px;
+background-color:blue;
+animation: vce 2s ease-out 1s infinite alternate;}
+div.div:hover{
+animation-play-state:paused;}
+div.div1{
+height:120px;
+width:120px;
+margin:50px;
+background-color:#34495e;
+animation: turning 8s ease-out 1s infinite alternate;
+float:left;}
+div.div1:hover{
+animation-play-state:paused;}
+div.div2{
+height:220px;
+width:120px;
+margin:50px;
+background-color: red;
+animation: hi 4s ease-out 1s infinite alternate;float:left;}
+div.div2:hover{
+animation-play-state:paused;}
+div.div3{
+height:150px;
+width:150px;
+margin:50px;
+background-color: violet;
+animation: cool 4s ease-out 1s infinite alternate;float:left;}
+div.div2:hover{
+animation-play-state:paused;}
+</style>
+</head>
+<body>
+<div class="div"><div class="div1">
+</div>
+<div class="div3">
+</div>
+<div class="div2">
+</div>
+</div>
+</body>
+</html>
