@@ -1,0 +1,193 @@
+﻿
+<!DOCTYPE html>
+<head>
+<title > Школьный помощник </title>
+</head>
+<style>
+#shapka{
+position:fixed;
+background-color:#A9EDF9;
+width:100%;
+height:56px;
+top:0;
+padding:0 16px;
+margin-left:-10px;
+z-index:100;
+}
+#osnova{
+position:absolute;
+background-color:#FDC4C6;
+width:100%;
+height:700px;
+top: 60px;
+left:0px;
+}
+#vidosiki{
+position:absolute;
+left:240px;
+}
+#menu-left{
+position:fixed;
+left:0px;
+width:240px;
+background-color:#F4CCFF;
+height:100%;
+overflow:auto;
+}
+<!--#yt-logo{
+position:absolute;
+width:80px;
+height:24px;
+left:40px;
+top:17px;
+coursor:pointer;-->
+}
+#poisk-v-shapke{
+position:absolute;
+width:400px;
+height:24px;
+left:200px;
+top:17px;
+border:1px solid black;
+cursor:text;
+}
+#menu-v-shapke{
+position:absolute;
+width:100px;
+height:24px;
+left:740px;
+top:17px;
+background-color:red;
+cursor:pointer;
+}
+.video{
+width:250px;
+height:270px;
+margin-top:15px;
+margin-left:20px;
+margin-bottom:15px;
+float:left;
+background-color:#BEAEFA;
+padding: 6px 6px 6px 6px; 
+}
+.menu-left-section-header{
+margin-top:15px;
+margin-left:20px
+margin-bottom:15px;
+font-size:120%;
+}
+.menu-left-item{
+display:block;
+padding-top:10px;
+padding-left:20px;
+height:40px;
+font-family:Arial;
+width:100%;
+}
+.menu-left-item img{
+vertical-align: middle;
+}
+  
+    .header1{
+      font-size:26pt;
+     color:#B23489;
+  }
+.menu-left-item:hover{
+background-color: #AAAAAA;
+}
+
+.first-section{
+margin-top:15px;
+margin-left:40px
+margin-bottom:15px;
+font-size:120%;
+background-color:red;
+}
+
+#video-header{
+	font-size: 30pt;
+	color: #122B64;
+	
+}
+</style>
+<body>
+<div id="shapka" class="header1">
+<!--
+  <a id ="yt-logo" href="http=://www.youtube.com">
+<img width ="80" height="24"src="img/yt-logo.png">
+</a>
+<div id="poisk-v-shapke">
+<center> Введите запрос</center>
+</div>
+<div id = "menu-v-shapke">
+<center>Кнопочки</center>
+</div>
+  -->
+  <center >Школьный помощник </center >
+</div>
+<div id ="osnova">
+<div id="menu-left">
+
+<div class="menu-left-section-header">
+Видео
+
+<form method= "GET" action ="https://www.youtube.com/results">
+  <input name="search_query">
+  <input type="submit" value="Найти">
+  </form>
+
+<br>
+Класс
+</div>
+<a class = "menu-left-item" href ="https://www.youtube.com/">
+7
+</a>
+<a class="menu-left-item" href ="https://www.youtobe.com/feed/treding">
+8
+</a>
+<a class="menu-left-item" href ="https://www.youtobe.com/feed/treding">
+9
+</a>
+<a class="menu-left-item" href ="https://www.youtobe.com/feed/treding">
+10</a>
+<a class="menu-left-item" href ="https://www.youtobe.com/feed/treding">
+11
+</a>
+
+</div>
+
+<div id="vidosiki">
+
+<div id="video-header" align="center"> 8 Класс </div>
+
+<div class = "video"> 
+<img src="images/геометрия.jpg" width ="230" height="230">
+ <a href="https://school-assistant.ru/?class=7_geometr">
+Геометрия
+  </a>
+
+
+</div>
+<div class = "video"> 
+<img src="images/алгебра.jpg"width ="230" height="230">
+<a href="https://school-assistant.ru/?class=7_algebra">
+  Алгебра
+  </a>
+</div>
+
+<div class = "video"> 
+<img src="images/биология.jpg"width ="230" height="230">
+<a href="https://uchitel.pro/предмет-биология/">
+ Биология
+  </a>
+</div>
+<div class = "video"> 
+<img src="images/англ.png"width ="230" height="230">
+<a href="https://skyeng.ru/articles">
+Английский
+  </a>
+
+</div>
+</div>
+</div>
+</body>
